@@ -2,7 +2,7 @@
 
 ## Deployed Link
 
-## https://nodejs-auth-gfc0.onrender.com
+## https://nodejsauthentiotion.onrender.com
 
 ## NodeJS, ExpressJS, MongoDB, EJS have been used for the development of this App.
 
