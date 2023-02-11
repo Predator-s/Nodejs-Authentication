@@ -1,0 +1,20 @@
+<header>
+  <!-- Navbar related code -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">NodeJS Authentication</a>
+      
+      
+        <!-- Checks if user is loggedIn -->
+        <form class="d-flex">
+          <% if(locals.user) { %>
+            <a class="navbar-brand btn btn-secondary rounded-circle" href="/profile"><%= locals.user.name.toUpperCase()[0]%></a>
+            <%}%>
+            <!-- Link to signout signed user -->
+          <a class="navbar-brand btn" href="/sign-out">SignOut</a>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+</header>
